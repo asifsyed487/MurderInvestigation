@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main()
 {
-    int a[100],j,c=0,c1=0,n,i,room_number,sum;
+    int a[1000],j,c=0,c1=0,n,i,room_number,sum;
     printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
     printf("-----------------------------------------------------------------------------------------------------------------------------------------------------------\n");
     printf("                                                        M U R D E R E R   O N   T H E   O R I E N T   E X P R E S S\n");
@@ -15,7 +15,7 @@ int main()
     printf("-----------------------------------------------------------------------------------------------------------------------------------------------------------\n");
     getchar();
     system("cls");
-    for(i=1; i<=100; i++)
+    for(i=1; i<=1000; i++)
     {
         c=0;
         for(j=1; j<=i; j++)
@@ -37,7 +37,7 @@ int main()
    for(i=1;i<=100;i++)
    {
        sum=0;
-       printf("\n\nEnter Room Number less or equal to 100(or Enter 0 to exit) : ");
+       printf("\n\nEnter Room Number (or Enter 0 to exit) : ");
        scanf("%d", &room_number);
        if((room_number != 0) && (room_number <= 100))
        {
@@ -51,6 +51,11 @@ int main()
        }
        else if(room_number==0)
        {
+           getchar();
+           system("cls");
+           printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+           printf(" \t\t\t\t\t\t                            E x i t e d.\n\n\n");
+           printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
            break;
        }
 
